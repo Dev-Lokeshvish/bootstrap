@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- css link  -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Example of form :</h3>
+          <form action="#">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email addres :</label>
+                <input type="email" id="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="mb-3">
+                <label for="feedback">Feedback :</label><br>
+                <textarea name="feedback" id="feedback" placeholder="write your feedback" rows="5" cols="29"></textarea>
+            </div>
+          </form>
+    </div>
+
+    <div class="container">
+        <h3>Form input sizing :</h3>
+        <form action="#">
+            <div class="mb-3">
+                <label for="long" class="form-label">Large input :</label><br>
+                <input type="text" id="long" placeholder="Write your name " class="form-control form-control-lg">
+            </div>
+            <div class="mb-3">
+                <label for="normal" class="form-label">normal input :</label><br>
+                <input type="text" id="normal" placeholder="Write your middle name " class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="small" class="form-label">small input :</label><br>
+                <input type="text" id="small" placeholder="Write your last name " class="form-control form-control-sm">
+            </div>
+            <div class="mb-3">
+                <h3>Select :</h3>
+                <select name="select" id="select" class="form-select">
+                    <option selected>Select your city</option>
+                    <option value="1">indore</option>
+                    <option value="2">mumbai</option>
+                    <option value="3">dehli</option>
+                    
+                </select>
+            </div>
+            <div class="form-check mb-3">
+                <label for="check" class="form-check-label">Age+</label>
+                <input type="checkbox" id="check" class="form-check-input">
+            </div>
+            <div class="form-check mb-3 form-switch">
+                <label for="check" class="form-check-label">Age+</label>
+                <input type="radio" id="check" class="form-check-input">
+            </div>
+
+            <div class="mb-3">
+                <div class="row">
+                    <div class="mb-3 col">
+                <label for="long" class="form-label">Large input :</label><br>
+                <input type="text" id="long" placeholder="Write your name " class="form-control form-control-lg">
+                </div>
+                <div class="mb-3 col">
+                <label for="normal" class="form-label">normal input :</label><br>
+                <input type="text" id="normal" placeholder="Write your middle name " class="form-control">
+            </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
