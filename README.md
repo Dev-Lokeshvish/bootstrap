@@ -1,2 +1,2 @@
 # bootstrap
-i upload my bootstrap related content from begining
+i upload my bootstrap related content from begining .
